@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: #f5f5f5;
+}
+
+main {
+	min-height: 100%;
+}
+
+/*ヘッダー関連*/
+
+header {
+	height: 50px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #000000;
+	display: flex;
+}
+
+.image_title {
+	padding: 0px 2% 0;
+	margin: 0;
+	align-items: normal;
+}
+
+.image_title a {
+	position: fixed;
+	margin: 0;
+	top: 0;
+	height: 50px;
+	width: 50px;
+}
+
+header nav {
+	margin: 0 2% 0 auto;
+}
+
+header ul {
+   list-style: none;
+   margin: 0;
+   display: flex;
+}
+
+
+header img {
+	height: 50px;
+}
+
+/*ドロップダウンメニュー*/
+
+ul.menu a{
+	margin: 0;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+}
+
+ul.menu li a{
+	display: block;
+	height: 50px;
+	width: 120px;
+	padding: 13px 0px;
+}
+
+ul.menu li a.mein:hover {
+	background-color: #2b2b2b;
+}
+
+ul.menu_2 {
+	display: block;
+	padding: 1px 0 0 0;
+	position: absolute;
+}
+
+ul.menu_2 li {
+	display: block;
+	overflow: hidden;
+	padding: 0;
+	height: 0;
+	width: 120px;
+	background-color: rgba(43,43,43,0.7);
+	transition: 0.2s;
+}
+
+ul.menu li:hover ul li {
+	display: block;
+	height: 50px;
+	transition: 0.1s;
+}
+
+ul.menu_2 li:hover {
+	background-color: rgba(43,43,43,0.85);
+}
+
+/*本体の設定*/
+
+main {
+	display: flex;
+    flex-direction: column;
+}
+
+article {
+	height:100%; 
+	margin-top: 70px;
+	margin-right: 200px;
+	margin-bottom: 20px;
+	margin-left: 200px;
+	background: #ffffff;
+	padding: 5px 15px;
+	border: 2px solid #c0c0c0;
+	flex-grow: 1;
+}
+
+.honbun_2 {
+	margin-top: 0px;
+	margin-right: 12px;
+	margin-bottom: 3px;
+	margin-left: 12px;
+	padding: 5px 15px;
+}
+
+footer {
+    height: 70px;
+    margin: 0;
+    bottom: 0;
+
+}
+
+footer p {
+	padding: 0 2%;
+	text-align: end;
+}
+
+.time_stamp {
+	font-size: 15px;
+	margin: 0;
+	color: #9b9b9b;
+}
+
+article h1 {
+	font-size: 40px;
+	margin-top: 0px;
+	margin-bottom: 4px;
+	border-bottom: 2px solid #000000;	
+}
+
+
+
+/*本文関連*/
+
+
+.red_tx {
+	color: red;
+}
+	
+.blue_tx {
+	color: blue;
+}
+
+.hold_tx {
+	font-weight: bold;
+}
+	
+.center_tx {
+	text-align: center;
+}
