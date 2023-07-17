@@ -1,2 +1,2 @@
 # traffic_light.net
-gau37の個人用サイトです。
+gau37個人用サイトです。
