@@ -133,14 +133,14 @@ article {
 }
 
 footer {
-	background-color: #60606088;
 	height: 100px;
 	margin: 0;
 	bottom: 0;
 }
 
-footer p {
-	text-align: center;
+footer {
+	padding: 0 2%;
+	text-align: end;
 }
 
 .time_stamp {
