@@ -7,7 +7,7 @@ const article = document.querySelector('article');
 
 main.insertAdjacentHTML(
   'beforebegin', 
-  '<header><h1 class="image_title"><a href="https://gau37.github.io/traffic_light.net/"><img src="信号島/pictures/icon.png" alt="traffic_light" /></a></h1><nav class="pc_nav"><ul class="menu"><li><a href="#" class="mein">概要</a><ul class="menu_2"><li><a href="#">プロフィール</a></li><li><a href="#">ここについて</a></li></ul></li><li><a href="#" class="mein">記録</a><ul class="menu_2"><li><a href="#">独り言</a></li><li><a href="#">制作物</a></li><li><a href="#">更新履歴</a></li></ul></li></ul></nav></header>');
+  '<header><h1 class="image_title"><a href="https://gau37.github.io/traffic_light.net/"><img src="https://gau37.github.io/traffic_light.net/pictures/icon.png" alt="traffic_light" /></a></h1><nav class="pc_nav"><ul class="menu"><li><a href="#" class="mein">概要</a><ul class="menu_2"><li><a href="#">プロフィール</a></li><li><a href="#">ここについて</a></li></ul></li><li><a href="#" class="mein">記録</a><ul class="menu_2"><li><a href="#">独り言</a></li><li><a href="#">制作物</a></li><li><a href="#">更新履歴</a></li></ul></li></ul></nav></header>');
 
 
 article.insertAdjacentHTML(
