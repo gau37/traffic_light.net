@@ -14,4 +14,8 @@ const head = document.querySelector('head');
   article.insertAdjacentHTML('afterend',
   '<footer><p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />このサイト内のコンテンツは <a href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ 表示 4.0 国際 ライセンス</a>の下に提供されています。</p></footer>');
   
+  
+  head.insertAdjacentHTML('afterbegin',
+  '<link rel="icon" href="https://gau37.github.io/traffic_light.net/pictures/icon.png" type="image/x-icon" />');
+  
 };
