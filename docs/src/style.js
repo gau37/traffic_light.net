@@ -17,9 +17,5 @@ const head = document.querySelector('head');
   
   head.insertAdjacentHTML(
   'afterbegin',
-  'article.insertAdjacentHTML(
-  'afterend',
   '<link rel="icon" href="https://gau37.github.io/traffic_light.net/pictures/icon.png" type="image/x-icon" />');
-  
-
 };
