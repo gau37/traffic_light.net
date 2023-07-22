@@ -157,6 +157,11 @@ article h1 {
 	border-bottom: 2px solid #000000;	
 }
 
+a:visited {
+    background-color: transparent;
+    color: #0000aa;
+    text-decoration: none;
+}
 
 
 /*本文関連*/
