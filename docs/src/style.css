@@ -158,9 +158,13 @@ article h1 {
 }
 
 a:visited {
-    background-color: transparent;
-    color: #0000aa;
-    text-decoration: none;
+	background-color: transparent;
+	color: #0000aa;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
 }
 
 
