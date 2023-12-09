@@ -17,5 +17,8 @@ const head = document.querySelector('head');
   
   head.insertAdjacentHTML('afterbegin',
   '<link rel="icon" href="https://gau37.github.io/traffic_light.net/pictures/icon.png" type="image/x-icon" />');
+
+  head.insertAdjacentHTML('afterbegin',
+  '<script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ["\\(","\\)"]] } });</script><script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script><meta http-equiv="X-UA-Compatible" CONTENT="IE=EmulateIE7" />');
   
 };
