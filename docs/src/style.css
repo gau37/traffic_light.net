@@ -187,3 +187,8 @@ main a {
 .center_tx {
 	text-align: center;
 }
+
+.image {
+	width: 400px;
+	height: auto;
+}
